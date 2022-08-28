@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/pt_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_person" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:background="@color/cool" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imię i nazwisko: " />
+
+        <TextView
+            android:id="@+id/pt_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kontakt: " />
+        <TextView
+            android:id="@+id/pt_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kontakt: " />
+    </LinearLayout>
+
+</LinearLayout>
